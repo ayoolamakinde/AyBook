@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorBlack"
+tools:context=".MainActivity"
+android:orientation="vertical">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:src="@drawable/logo2"/>
+
+<Button
+    android:id="@+id/add"
+    android:onClick="add"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:background="@color/colorPrimaryDark"
+    android:textColorHint="@color/colorWhite"
+    android:textColor="@color/colorWhite"
+    android:text="NEW CONTACT"/>
+    <Button
+        android:id="@+id/search"
+        android:onClick="search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:text="SEARCH"/>
+    <Button
+        android:id="@+id/all"
+        android:onClick="show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:text="SHOW ALL"/>
+    <Button
+        android:id="@+id/exit"
+        android:onClick="exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:text="EXIT"/>
+
+
+
+</LinearLayout>

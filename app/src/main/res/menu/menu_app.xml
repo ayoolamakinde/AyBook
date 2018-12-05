@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="HOME"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add"
+        android:title="NEW"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/show"
+        android:title="SHOW ALL"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/search"
+        android:title="SEARCH"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/exit"
+        android:title="EXIT"
+        app:showAsAction="never"
+        />
+
+
+</menu>
